@@ -29,7 +29,7 @@ class AddBook extends Component {
   // TODO: Isi fungsi untuk memanggil method POST untuk fitur menambah buku baru
   AddBook = buku => {
     // isi disini
-    axios.post("https://calm-dusk-11524.herokuapp.com/library", buku).then((res) => {
+    axios.post("https://library2020-api-fajar.herokuapp.com/library", buku).then((res) => {
       window.alert("Berhasil!");
       this.setState({
         judul: "",
